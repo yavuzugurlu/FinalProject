@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    //DAL = data access layer
-    public interface IProductDal:IEntitiyRepository<Product>
+    public interface ICustomerDal:IEntitiyRepository<Customer>
     {
-
     }
 }
